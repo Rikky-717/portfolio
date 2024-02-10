@@ -1,0 +1,56 @@
+.label-sub {
+    position: absolute;
+    top: 3.5vw;
+    right: 3.2vw;
+    width: 26vw;
+}
+
+.title {
+    width: 60vw;
+    font-size: 4.8rem;
+    padding-bottom: 14.5px;
+    margin: 144px auto 55.5px;
+    border-bottom: 3px solid rgb(214, 70, 57);
+    text-align: center;
+}
+
+.product {
+    width: 100%;
+    display: flex;
+    position: relative;
+}
+
+.product img {
+    width: 72%;
+}
+
+.text {
+    width: 28%;
+    text-align: right;
+}
+
+.text h5 {
+    font-size: 1.8rem;
+}
+
+.text h6 {
+    font-size: 2rem;
+}
+
+.product h3 {
+    position: absolute;
+    font-size: 10rem;
+    color: rgb(214, 70, 57);
+    left: 60%;
+    bottom: 10px;
+}
+
+.impression-wrapper {
+    text-align: left;
+}
+
+.impression-wrapper h6 {
+    width: 100%;
+    padding-top: 38px;
+    font-size: 1.8rem;
+}

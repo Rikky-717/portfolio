@@ -1,0 +1,258 @@
+* {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 10px;
+}
+
+body {
+    background-color: rgb(253, 249, 239);
+}
+
+li {
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* ハンバーガーメニュー */
+.burger {
+    position: fixed;
+    top: 50px;
+    left: 50px;
+    cursor: pointer;
+    z-index: 200;
+}
+
+.burger div {
+    width: 65px;
+    height: 5px;
+    background-color: black;
+    margin: 16px;
+}
+
+.open .line1 {
+    transform: rotate(-45deg) translate(-16px, 14px);
+    background-color: white;
+}
+
+.open .line2 {
+    opacity: 0;
+    background-color: white;
+}
+
+.open .line3 {
+    transform: rotate(45deg) translate(-16px, -14px);
+    background-color: white;
+}
+
+.menu-modal {
+    position: fixed;
+    top: 0;
+    height: 100vh;
+    width: 423px;
+    z-index: 100;
+    color: white;
+    background-color: black;
+    text-align: center;
+    display: none;
+}
+
+ul {
+    width: 305px;
+    margin: 0 auto;
+    padding-top: 156px;
+}
+
+ul li{
+    padding: 22px 0 11px;
+    width: 100%;
+    border-bottom: 1px solid rgb(123, 119, 119);
+}
+
+ul li a{
+    font-size: 3.2rem;
+    color: white;
+}
+
+
+
+.top-wrapper {
+    width: 100vw;
+}
+
+.top {
+    width: 52%;
+    margin: 10vw 0 0 10vw;
+}
+
+.label {
+    position: absolute;
+    top: 3.5vw;
+    right: 12vw;
+    width: 40vw;
+}
+
+.work-wrapper {
+    width: 60vw;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.title {
+    width: 60vw;
+    font-size: 4.8rem;
+    padding-bottom: 14.5px;
+    margin: 80px auto 55.5px;
+    border-bottom: 3px solid rgb(214, 70, 57);
+    text-align: center;
+}
+
+.contents {
+    display: flex;
+}
+
+.contents img {
+    border: 3px solid rgba(0, 0, 0, 0.2);
+}
+
+.contents1 {
+    width: 50%;
+    padding-right: 8.5px;
+}
+
+.contents1 .first-img {
+    width: 100%;
+    aspect-ratio: 205 / 111;
+    object-fit: cover;
+    margin-bottom: 17px;
+}
+
+.contents1 .second-img {
+    width: 100%;
+    aspect-ratio: 205 / 77;
+    object-fit: cover;
+}
+
+.contents2 {
+    width: 50%;
+    padding-left: 8.5px;
+}
+
+.contents2 .first-img {
+    width: 100%;
+    aspect-ratio: 205 / 77;
+    object-fit: cover;
+    margin-bottom: 17px;
+}
+
+.contents2 .second-img {
+    width: 100%;
+    aspect-ratio: 205 / 111;
+    object-fit: cover;
+}
+
+.btn {
+    color: white;
+    display: inline-block;
+}
+
+.more {
+    font-size: 3.6rem;
+    padding: 10.5px 35px;
+    background-color: rgb(214, 70, 57);
+    margin-top: 80px;
+}
+
+.about-wrapper {
+    width: 77vw;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.about {
+    display: flex;
+    width: 100%;
+    padding-bottom: 120px;
+}
+
+.left {
+    width: 50%;
+    position: relative;
+}
+
+.right {
+    width: 50%;
+}
+
+.about h3 {
+    color: rgba(214, 70, 57, 0.3);
+    font-size: 8.4rem;
+    text-align: left;
+}
+
+/* .about h4 {
+    font-size: 4.8rem;
+    position: absolute;
+    top: 102px;
+} */
+
+.second h3 {
+    font-size: 5.4rem;
+}
+
+.right h6 {
+    font-size: 1.8rem;
+    line-height: 1.6;
+    text-align: left;
+}
+
+.right-top {
+    display: flex;
+}
+
+.right-top h4 {
+    font-size: 10rem;
+    padding-right: 15px;
+    color: rgb(214, 70, 57);
+}
+
+.language {
+    font-size: 2.2rem;
+    color: rgb(214, 70, 57);
+}
+
+.contact-wrapper {
+    width: 60vw;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.contact-wrapper h4 {
+    font-size: 2.4rem;
+    color: rgb(214, 70, 57);
+    padding-bottom: 20px;
+}
+
+.contact-wrapper h2 {
+    font-size: 4rem;
+    padding: 20px 85px;
+    margin-bottom: 130px;
+    border: 3px solid black;
+}
+
+footer {
+    width: 100vw;
+    color: white;
+    background-color: rgb(214, 70, 57);
+    text-align: center;
+}
+
+footer p {
+    font-size: 1.8rem;
+    padding: 60px 0 40px;
+}
